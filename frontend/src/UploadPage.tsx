@@ -54,7 +54,7 @@ const UploadPage: React.FC<UploadPageProps> = ({ onReportReady }) => {
     formData.append("file", file);
 
     try {
-      const res = await fetch("http://10.67.2.205:5000/api/generate-report", {
+      const res = await fetch("http://44.229.227.142:5000/api/generate-report", {
         method: "POST",
         body: formData,
       });

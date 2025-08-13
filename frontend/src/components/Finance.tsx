@@ -16,7 +16,7 @@ import CategoryReport from "./CategoryReport";
 const Finance = () => (
   <CategoryReport
     title="💰 Finance Management Report"
-    endpoint="http://10.67.2.205:5000/api/report/finance"
+    endpoint="http://44.229.227.142:5000/api/report/finance"
   />
 );
 

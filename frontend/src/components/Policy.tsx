@@ -16,7 +16,7 @@ import CategoryReport from "./CategoryReport";
 const Policy = () => (
   <CategoryReport                        
     title="🛡️ Policy Manager Report"
-    endpoint="http://10.67.2.205:5000/api/report/policy"
+    endpoint="http://44.229.227.142:5000/api/report/policy"
   />
 );
 

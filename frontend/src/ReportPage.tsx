@@ -25,7 +25,7 @@ const ReportPage: React.FC<ReportPageProps> = ({ reportId }) => {
 
   useEffect(() => {
     axios
-      .get(`http://10.67.2.205:5000/api/report/${reportId}`)
+      .get(`http://44.229.227.142:5000/api/report/${reportId}`)
       .then((res) => setData(res.data))
       .catch(() =>
         setError("Loading report failed. (Invalid reportId or backend issue)")
